@@ -1,0 +1,11 @@
+services:
+  api:
+    container_name: nest_api
+    build: .
+    ports:
+      - 3000:3000
+    env_file:
+      - .env
+    volumes:
+      - .:/usr/src/app
+      - /usr/src/app/node_modules
