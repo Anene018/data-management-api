@@ -2,14 +2,20 @@
 
 The full API documentation can be accessed via the following URL:
 
-[Postman Documentation](<https://documenter.getpostman.com/view/26866756/2sAXjRX9p4>)
-
-This link provides detailed information on each endpoint, including request methods, parameters, and example responses.
+[Postman Documentation](https://documenter.getpostman.com/view/26866756/2sAXjRX9p4)
 
 ## Project setup
 
 ```bash
 $ npm install
+
+```
+
+## Docker setup
+
+```bash
+$ docker compose up
+
 ```
 
 ## Compile and run the project
@@ -32,4 +38,3 @@ $ npm run start:prod
 $ npm run test
 
 ```
-
